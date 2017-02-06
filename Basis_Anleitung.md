@@ -1,5 +1,3 @@
-wie werden forderungen in Shopware behandelt? wie ist die anbindung an datev?
-
 ## Artikel
 Um Artikel neu anzulegen auf *Artikel > Anlegen* gehen. Um bereits bestehende Artikel anzusehen oder zu bearbeiten auf *Artikel > Übersicht*.
 #### Stammdaten
