@@ -57,6 +57,57 @@ Um Bilder bestimmten Varianten zuzuordnen muss ein Bild angewählt werden und da
 
 TODO: ausführlicher beschreiben wie zuordnung von bildern zu varianten erfolgt.
 
+### Eigenschaften
+Um die Artikel im Online-Shop nach bestimmten Eigenschaften filtern zu können müssen diese im Backend angelegt werden.
+Zum Anlegen von Eigenschaften, die dann den Artikeln zugewiesen werden können, auf *Artikel > Eigenschaften* gehen.
+
+![Filter Optionen Frontend](./img/eigenschaften-frontend-filtern.png)
+
+Pro Artikel kann ein *Set* an Eigenschaften zugewiesen werden. Die Struktur ist dabei folgende:
+
+Einem Artikel kann nur ein Set zugewiesen werden.
+
+Ein Set kann beliebig viele Gruppen enthalten.
+  + Gruppen können zB sein: Region, Geschmacksrichtung, Größe, Rebsorte, etc.
+
+Gruppen beinhalten Optionen.
+  + zB die Gruppe Rebsorte könnte die Optionen Dornfelder, Spätburgunder, Riesling etc. enthalten.
+
+Wenn das gewünschte *Set* erstellt wurde kann es einem Artikel zugewiesen werden. Dazu muss der gewünschte Artikel über *Artikel > Übersicht* ausgewählt werden. Dann auf den Reiter *Eigenschaften* gehen.
+
+Hier kann über das *Drop-Down*-Menü ein *Set* ausgewählt werden. Nun müssen nur noch die Eigenschaften, die auf den Artikel zutreffen ausgewählt werden.
+
+**Beachte:** Nicht vergessen zu speichern bevor der Artikel wieder geschlossen wird.
+
+#### Beispiel:
+Als Beispiel möchten wir einem Wein Eigenschaften zuordnen.
+Hierfür legen wir zunächste eine neue Gruppe für die Rebsorte an.
+Nach Klick auf *Gruppe hinzufügen* geben wir den gewünschten Namen für die Gruppe ein. In unserem Fall 'Rebsorte'.
+
+![Eigenschaftengruppe hinzufügen](./img/eigenschaften-gruppe-hinzufuegen.png)
+
+**Beachte:** Damit die Gruppe später als Filter verfügbar ist muss noch das Häkchen bei *Filterbar* gesetzt werden.
+
+Dann über die Schaltfläche *Option hinzufügen* die gewünschten Rebsorten eintragen.
+
+![Optionen hinzufügen](./img/eigenschaften-optionen-hinzufuegen.png)
+
+Über die Schaltfläche *Set hinzufügen* erstellen wir nun das Set das für unserem Artikel zuordnen wollen. Wir erstellen hier allgemeine Eigenschaften-Sets die am besten für ganz Produktgruppen verwendet werden können.
+In unserem Fall nennen wir unser Set daher 'Weine'.
+
+![Set hinzufügen](./img/eigenschaften-set-hinzufuegen.png)
+
+Über *Drag'n'Drop* können wir nun Gruppen einem Set zu ordnen. Dazu ziehen wir die in unserem Fall beide Gruppen *Region* und *Rebsorte* in die Spalte *Zugeordnete Gruppen*.
+
+![Gruppen zuordnen](./img/eigenschaften-gruppen-zuordnen.png)
+
+Nun öffnen wir den Artikel dem wir Eigenschaften zuordnen wollen. Im Reiter *Eigenschaften* wählen wir über das erste *Drop-Down* Menü unser gerade erstelltes *Set*. Dann kann eine Gruppe ausgewählt werden und eine Option dieser Gruppe. Durch *Eigenschaft erstellen* oder das Drücken auf *Enter* wird die Eigenschaft hinzugefügt.
+
+**Beachte:** Es können auch Optionen hinzugefügt werden, die noch nicht eingepflegt wurden. Dazu einfach in dem Optionen-Eingabefeld die gewünschte Option eintippen und *Strg+Enter* drücken. Falls wir in unsrem Fall vergessen hätten die passende Rebsorte für den ausgewählten Wein anzulegen, könnten wir sie so trotzdem hinzufügen ohne noch einmal in den andren Dialog zu wechseln.
+
+![Eigenschaften zuweisen](./img/eigenschaften-zuweisen.png)
+
+
 ### Variantenartikel
 Wurde im Feld *Stammdaten* das Häkchen bei *Varianten-Artikel* gesetzt und der Artikel gespeichert ist der Reiter *Varianten* verfügbar.
 **Vorsicht:** Nicht vergessen auf *Speichern* zu klicken, damit der Reiter aktiv wird.

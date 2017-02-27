@@ -1051,6 +1051,35 @@ Damit ist es z.B. möglich Artikel wie Sandwiches nur für Kunden im Ladengesch�
 <p>Um Bilder bestimmten Varianten zuzuordnen muss ein Bild angewählt werden und dann auf <em>Konfiguration öffnen</em> geklickt werden.</p>
 <p>Über <em>Als Vorschau verwenden</em> kann das Bild als Vorschaubild im Shop gewählt werden.</p>
 <p>TODO: ausführlicher beschreiben wie zuordnung von bildern zu varianten erfolgt.</p>
+<h3 id="eigenschaften"><a name="user-content-eigenschaften" href="#eigenschaften" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Eigenschaften</h3>
+<p>Um die Artikel im Online-Shop nach bestimmten Eigenschaften filtern zu können müssen diese im Backend angelegt werden.<br />
+Zum Anlegen von Eigenschaften, die dann den Artikeln zugewiesen werden können, auf <em>Artikel &gt; Eigenschaften</em> gehen.</p>
+<p><img alt="Filter Optionen Frontend" src="img/eigenschaften-frontend-filtern.png" /></p>
+<p>Pro Artikel kann ein <em>Set</em> an Eigenschaften zugewiesen werden. Die Struktur ist dabei folgende:</p>
+<p>Einem Artikel kann nur ein Set zugewiesen werden.</p>
+<p>Ein Set kann beliebig viele Gruppen enthalten.<br />
+  + Gruppen können zB sein: Region, Geschmacksrichtung, Größe, Rebsorte, etc.</p>
+<p>Gruppen beinhalten Optionen.<br />
+  + zB die Gruppe Rebsorte könnte die Optionen Dornfelder, Spätburgunder, Riesling etc. enthalten.</p>
+<p>Wenn das gewünschte <em>Set</em> erstellt wurde kann es einem Artikel zugewiesen werden. Dazu muss der gewünschte Artikel über <em>Artikel &gt; Übersicht</em> ausgewählt werden. Dann auf den Reiter <em>Eigenschaften</em> gehen.</p>
+<p>Hier kann über das <em>Drop-Down</em>-Menü ein <em>Set</em> ausgewählt werden. Nun müssen nur noch die Eigenschaften, die auf den Artikel zutreffen ausgewählt werden.</p>
+<p><strong>Beachte:</strong> Nicht vergessen zu speichern bevor der Artikel wieder geschlossen wird.</p>
+<h4 id="beispiel"><a name="user-content-beispiel" href="#beispiel" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Beispiel:</h4>
+<p>Als Beispiel möchten wir einem Wein Eigenschaften zuordnen.<br />
+Hierfür legen wir zunächste eine neue Gruppe für die Rebsorte an.<br />
+Nach Klick auf <em>Gruppe hinzufügen</em> geben wir den gewünschten Namen für die Gruppe ein. In unserem Fall &lsquo;Rebsorte&rsquo;.</p>
+<p><img alt="Eigenschaftengruppe hinzufügen" src="img/eigenschaften-gruppe-hinzufuegen.png" /></p>
+<p><strong>Beachte:</strong> Damit die Gruppe später als Filter verfügbar ist muss noch das Häkchen bei <em>Filterbar</em> gesetzt werden.</p>
+<p>Dann über die Schaltfläche <em>Option hinzufügen</em> die gewünschten Rebsorten eintragen.</p>
+<p><img alt="Optionen hinzufügen" src="img/eigenschaften-optionen-hinzufuegen.png" /></p>
+<p>Über die Schaltfläche <em>Set hinzufügen</em> erstellen wir nun das Set das für unserem Artikel zuordnen wollen. Wir erstellen hier allgemeine Eigenschaften-Sets die am besten für ganz Produktgruppen verwendet werden können.<br />
+In unserem Fall nennen wir unser Set daher &lsquo;Weine&rsquo;.</p>
+<p><img alt="Set hinzufügen" src="img/eigenschaften-set-hinzufuegen.png" /></p>
+<p>Über <em>Drag&rsquo;n&rsquo;Drop</em> können wir nun Gruppen einem Set zu ordnen. Dazu ziehen wir die in unserem Fall beide Gruppen <em>Region</em> und <em>Rebsorte</em> in die Spalte <em>Zugeordnete Gruppen</em>.</p>
+<p><img alt="Gruppen zuordnen" src="img/eigenschaften-gruppen-zuordnen.png" /></p>
+<p>Nun öffnen wir den Artikel dem wir Eigenschaften zuordnen wollen. Im Reiter <em>Eigenschaften</em> wählen wir über das erste <em>Drop-Down</em> Menü unser gerade erstelltes <em>Set</em>. Dann kann eine Gruppe ausgewählt werden und eine Option dieser Gruppe. Durch <em>Eigenschaft erstellen</em> oder das Drücken auf <em>Enter</em> wird die Eigenschaft hinzugefügt.</p>
+<p><strong>Beachte:</strong> Es können auch Optionen hinzugefügt werden, die noch nicht eingepflegt wurden. Dazu einfach in dem Optionen-Eingabefeld die gewünschte Option eintippen und <em>Strg+Enter</em> drücken. Falls wir in unsrem Fall vergessen hätten die passende Rebsorte für den ausgewählten Wein anzulegen, könnten wir sie so trotzdem hinzufügen ohne noch einmal in den andren Dialog zu wechseln.</p>
+<p><img alt="Eigenschaften zuweisen" src="img/eigenschaften-zuweisen.png" /></p>
 <h3 id="variantenartikel"><a name="user-content-variantenartikel" href="#variantenartikel" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Variantenartikel</h3>
 <p>Wurde im Feld <em>Stammdaten</em> das Häkchen bei <em>Varianten-Artikel</em> gesetzt und der Artikel gespeichert ist der Reiter <em>Varianten</em> verfügbar.<br />
 <strong>Vorsicht:</strong> Nicht vergessen auf <em>Speichern</em> zu klicken, damit der Reiter aktiv wird.</p>
@@ -1155,4 +1184,8 @@ Wähle im Menü &ldquo;Artikel-&gt;Lager-&gt;Lagerverwaltung&rdquo;.</p>
 <p>Das neue Lager ist ab sofort als Standard bei Bestellungen gewählt.</p>
 <h5 id="beispiel-fur-eine-lieferantenbestellung"><a name="user-content-beispiel-fur-eine-lieferantenbestellung" href="#beispiel-fur-eine-lieferantenbestellung" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Beispiel für eine Lieferantenbestellung</h5>
 <p><img alt="Lieferantenbestellung" src="img/lieferantenbestellung.png" /></p>
-<p>(Als Absender wird weiterhin die Geschäftsadresse angegeben, die in den Stammdaten hinterlegt wurde.)</p></article></body></html>
+<p>(Als Absender wird weiterhin die Geschäftsadresse angegeben, die in den Stammdaten hinterlegt wurde.)</p>
+<h2 id="kassenberichte"><a name="user-content-kassenberichte" href="#kassenberichte" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Kassenberichte</h2>
+<p>Kassenberichte können über <em>Kunden &gt; Kassenbericht</em> abgerufen werden. Es gibt hier die Möglichkeit per Hand einen Zeitraum (bestimmten Tag) zu wählen und dafür einen Abschluss zu erstellen.</p>
+<p><strong>Beachte:</strong> Es ist nicht schlimm wenn vergessen wird am Abend einen Abschluss zu erzeugen, da dies auch im Nachhinein nach Tagen getrennt zu tun. Nur der Zeitraum <em>Alles</em> darf nicht gewählt werden.</p>
+<p>Alle abgeschlossenen Tage können über den Reiter <em>Abgeschlossen</em> aufgerufen werden. Um einen einzelnen Tagesabschluss einzusehen einfach auf die Lupe rechts in der Zeile klicken. In dem geöffneten Tagesabschluss besteht dann auch die Möglichkeit den Abschluss als PDF herunterzuladen.</p></article></body></html>
