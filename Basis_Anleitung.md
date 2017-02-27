@@ -242,3 +242,11 @@ Das neue Lager ist ab sofort als Standard bei Bestellungen gewählt.
 ![Lieferantenbestellung](./img/lieferantenbestellung.png)
 
 (Als Absender wird weiterhin die Geschäftsadresse angegeben, die in den Stammdaten hinterlegt wurde.)
+
+
+## Kassenberichte
+Kassenberichte können über *Kunden > Kassenbericht* abgerufen werden. Es gibt hier die Möglichkeit per Hand einen Zeitraum (bestimmten Tag) zu wählen und dafür einen Abschluss zu erstellen.
+
+**Beachte:** Es ist nicht schlimm wenn vergessen wird am Abend einen Abschluss zu erzeugen, da dies auch im Nachhinein nach Tagen getrennt zu tun. Nur der Zeitraum *Alles* darf nicht gewählt werden.
+
+Alle abgeschlossenen Tage können über den Reiter *Abgeschlossen* aufgerufen werden. Um einen einzelnen Tagesabschluss einzusehen einfach auf die Lupe rechts in der Zeile klicken. In dem geöffneten Tagesabschluss besteht dann auch die Möglichkeit den Abschluss als PDF herunterzuladen.
