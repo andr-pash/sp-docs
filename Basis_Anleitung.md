@@ -78,6 +78,25 @@ TODO: Dialog speichern vor Generation.
 
 
 ## Stücklisten-Artikel (Körbe)
+Stücklisten-Artikel werden genau wie normale Artikel angelegt. Also einfach auf *Artikel > Anlegen*. Der Haken bei Stückliste muss gesetzt sein.
+
+![Stuckliste anlegen](./img/stuecklisten-anlegen.png)
+
+Nach erfolgreichem abspeichern ist der Reiter *Stücklisten* verfügbar. Auf diesen Reiter klicken um die Stückliste mit Artikeln zu füllen.
+
+**Beachte:** Zur weiteren Bearbeitung muss der Artikel erst abgespeichert werden. Falls der Reiter *Stücklisten* nicht verfügbar ist, den Artikel schließen und über *Artikel > Übersicht* erneut öffnen.
+
+Die gewünschten Artikel können auf der linken Seite ausgewählt werden und durch Klick auf den Pfeil nach rechts in die Stückliste geschoben werden.
+
+Die Anzahl der Artikel die in der Stückliste/Korb enthalten sein sollen kann durch Doppelklick auf das Feld *Anzahl* verändert werden.
+
+![Stückliste bearbeiten](./img/stuecklisten-anzahl.png)
+
+**Beachte:** Nicht vergessen nach der Zuweisung der gewünschten Artikel oder nach Änderung der Anzahl abzuspeichern.
+
+
+**TODO:** Wie können Sub-Artikel auf Emails/Rechnungen ein oder ausgeblendet werden.
+
 
 
 
